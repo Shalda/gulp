@@ -1,0 +1,65 @@
+@mixin anim($param: all, $dur: .2s, $type: ease-out, $delay:0s) {
+  transition: $param $dur $type $delay;
+}
+
+@mixin bp($point, $type: max) {
+  @media screen and (#{$type}-width: #{$point}px) {
+    @content;
+  }
+}
+
+@mixin size($size) {
+  width: #{$size}px;
+  height: #{$size}px;
+}
+
+@mixin hover-line {
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background: #929598;
+    transform: rotateY(90deg);
+    transition: transform .3s ease-in;
+  }
+  &:hover:after {
+    transform: rotateY(0deg);
+  }
+}
+
+@mixin text {
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 2.3px;
+  z-index: 2;
+}
+
+@mixin text-dash {
+  &:before {
+    content: ' ';
+    width: 40px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: -13px;
+    left: 0;
+  }
+}
+
+@mixin green-btn {
+  font-size: 1.125em;
+  padding: 15px 49px;
+  color: #fff;
+  background: #2c715b;
+  border-radius: 2px;
+  display: inline-block;
+  &:hover{
+    opacity: 0.7;
+    @include anim;
+  }
+}

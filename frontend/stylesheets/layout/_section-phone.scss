@@ -1,0 +1,11 @@
+.phone{
+  .container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 80px 0px 140px;
+      .phone__aside {
+        flex: 0 0 450px;
+      }
+  }
+}

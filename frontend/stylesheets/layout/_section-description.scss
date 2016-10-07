@@ -1,0 +1,11 @@
+.description {
+  background: $Bg-grey;
+  .container {
+    padding: 80px 80px 80px;
+    height: calc(100vh - 130px);
+    min-height: 473px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

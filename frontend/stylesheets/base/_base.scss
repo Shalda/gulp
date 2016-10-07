@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  &:after, &:before {
+    box-sizing: border-box;
+  }
+}
+
+body,
+menu,
+blockquote,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+*[class$="text"] {
+  @include text;
+  @include text-dash;
+}
+
+.call {
+  display: none;
+}
+
+.whistle {
+  position: absolute;
+  top: 0;
+  left: 41%;
+}
+
+.description__image {
+  position: absolute;
+  bottom: 0;
+  left: 20.7%;
+}
+
+blockquote {
+  align-self: center;
+  flex: 0 0 400px;
+}
+
+.description__tutorial {
+  z-index: 1;
+  text-align: center;
+  span {
+    display: block;
+    margin: 0 0 33px;
+    font: 700 0.9em 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+}
+
+.video:hover {
+  @include anim();
+  opacity: 0.5;
+}
+
+.phone .container {
+  .phone__aside p {
+    margin: 0 0 112px;
+
+  }
+  .n-three {
+    margin: 0 0 80px !important;
+  }
+}
+
+.slider {
+  overflow-x: hidden;
+}
+
+.community__text {
+  flex: 0 0 400px;
+}
+
+.community__network__box span{
+  display: inline-block;
+  font: 300 1.5em 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 0 0 16px;
+  vertical-align: super;
+}

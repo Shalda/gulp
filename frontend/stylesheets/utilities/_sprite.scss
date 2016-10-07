@@ -1,0 +1,42 @@
+.n-four:after, .n-two:after, .n-three:after, .n-one:after, .sprite1:before,
+.sprite8:before, .sprite2:before, .sprite4:before, .sprite7:before, .sprite6:before,
+.sprite5:before, .sprite3:before
+{content: " "; display: inline-block; background: url('../images/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; position: absolute; right: 53px;
+  top: -72px;}
+
+.n-four:after { background-position: -4px -0px; width: 78px; height: 107px; }
+.n-two:after { background-position: -4px -111px; width: 73px; height: 108px; }
+.n-three:after { background-position: -4px -223px; width: 69px; height: 109px; }
+.n-one:after { background-position: -4px -336px; width: 42px; height: 107px; }
+.sprite1:before { background-position: -50px -336px; width: 21px; height: 21px; }
+.sprite8:before { background-position: -50px -361px; width: 21px; height: 18px; }
+.sprite2:before { background-position: -50px -383px; width: 20px; height: 20px; }
+.sprite4:before { background-position: -50px -407px; width: 20px; height: 20px; }
+.sprite7:before { background-position: -50px -431px; width: 20px; height: 20px; }
+.sprite6:before { background-position: -4px -447px; width: 18px; height: 18px; }
+.sprite5:before { background-position: -26px -447px; width: 14px; height: 20px; }
+.sprite3:before { background-position: -44px -455px; width: 12px; height: 16px; }
+
+
+.logofooter:after, .appstore:after, .googlplay:after, .mastercard:after, .neteller:after,
+.paypal:after, .skrill:after, .visa:after, .facebookwhite:after, .googlewhite:after,
+.vkwhite:after, .facebookgrey:after, .googlegrey:after, .up:after, .vkgrey:after,
+.ball
+{ display: inline-block; background: url('../images/socsprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.logofooter:after { background-position: -4px -0px; width: 149px; height: 43px; }
+.appstore:after { background-position: -4px -47px; width: 130px; height: 40px; }
+.googlplay:after { background-position: -4px -91px; width: 130px; height: 40px; }
+.mastercard:after { background-position: -4px -135px; width: 50px; height: 30px; }
+.neteller:after { background-position: -58px -135px; width: 50px; height: 30px; }
+.paypal:after { background-position: -4px -169px; width: 50px; height: 30px; }
+.skrill:after { background-position: -58px -169px; width: 50px; height: 30px; }
+.visa:after { background-position: -4px -203px; width: 50px; height: 30px; }
+.facebookwhite:after { background-position: -58px -203px; width: 40px; height: 40px; }
+.googlewhite:after { background-position: -102px -203px; width: 40px; height: 40px; }
+.vkwhite:after { background-position: -4px -237px; width: 40px; height: 40px; }
+.facebookgrey:after { background-position: -112px -135px; width: 30px; height: 30px; }
+.googlegrey:after { background-position: -112px -169px; width: 30px; height: 30px; }
+.up:after { background-position: -48px -247px; width: 30px; height: 30px; }
+.vkgrey:after { background-position: -82px -247px; width: 30px; height: 30px; }
+.ball { background-position: -116px -247px; width: 20px; height: 20px; }

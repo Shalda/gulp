@@ -1,0 +1,64 @@
+.table {
+  height: 100vh;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px 80px 160px;
+  .before-table__text {
+    flex-basis: 350px;
+    letter-spacing: 0;
+  }
+}
+
+table {
+  border-top: 2px solid #e5e5e5;
+  font-size: .9em;
+  td {
+    width: 56px;
+  }
+}
+
+.table__match__ball {
+  width: 27px;
+  .ball {
+    margin: 12px 5px 0 0;
+  }
+}
+
+.table__match__live {
+  font-size: .8em;
+  color: #2c715b;
+  padding: 14px 0;
+}
+
+
+.table__description {
+  color: #999999;
+  font-size: .6em;
+}
+
+.table__value {
+  color: #000;
+  font-size: .8em;
+  &-time {
+    color: #c34c4c;
+  }
+  &-rec span {
+    color: #999999;
+  }
+  & td {
+    padding-bottom: 14px;
+    & a {
+      text-decoration: none;
+      font-size: .8em;
+      color: #2c715b;
+      padding: 14px 0;
+      &:hover {
+        color: darkorange;
+      }
+    }
+  }
+}
+
+

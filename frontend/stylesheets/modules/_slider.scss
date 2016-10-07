@@ -1,0 +1,214 @@
+.swiper-container {
+  overflow: visible;
+  width: 100%;
+  height: 640px;
+  margin: 20px auto;
+  background: #f7f1f1;
+  padding: 44px 0 0;
+  position: relative;
+  .swiper-wrapper {
+    overflow: visible;
+    transform: translate3d(20px, 0px, 0px);
+    display: flex;
+    align-items: flex-end;
+    .swiper-slide {
+      display: inline-block;
+      flex-shrink: 0;
+      .image-box {
+        position: relative;
+        .text-box {
+          color: #fff;
+          position: absolute;
+          background: #0d221b;
+          border-radius: 4px;
+          font-size: .75em;
+          z-index: 1;
+          box-sizing: border-box;
+          padding: 15px 20px;
+          line-height: 1.5;
+          text-align: left;
+          &:after {
+            content: '';
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            border-radius: 50%;
+            z-index: 1;
+            background: #0d221b;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**1 слайдер текст**/
+.slider .swiper-slide:nth-child(1) .text-box {
+  width: 160px;
+  left: auto;
+  right: -134px;
+  top: 121px;
+  &:after {
+    bottom: -9px;
+    left: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+  }
+}
+
+/**2слайдер текст**/
+.slider .swiper-slide:nth-child(2) .text-box {
+  width: 260px;
+  left: auto;
+  right: -38px;
+  top: 38px;
+  &:after {
+    bottom: -9px;
+    left: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+  }
+}
+
+/** 3слайдер текст низ**/
+.slider .swiper-slide:nth-child(3) .text-box {
+  width: 180px;
+  left: -80px;
+  bottom: 40px;
+  &:after {
+    top: -9px;
+    right: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 95px;
+    right: 10px;
+  }
+}
+
+/** 3слайдер текст верх**/
+.slider .swiper-slide:nth-child(3) .text-box-top {
+  width: 180px;
+  left: auto;
+  right: 10px;
+  top: 25px;
+  bottom: auto;
+  &:after {
+    top: 142px;
+    left: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+  }
+}
+
+/** 4 слайдер текст**/
+.slider .swiper-slide:nth-child(4) .text-box {
+  width: 180px;
+  left: -80px;
+  bottom: 13px;
+  &:after {
+    top: -9px;
+    right: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 92px;
+    right: 10px;
+  }
+}
+
+/** 5 слайдер текст низ**/
+.slider .swiper-slide:nth-child(5) .text-box {
+  width: 180px;
+  left: -30px;
+  bottom: 29px;
+  &:after {
+    top: -9px;
+    right: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 95px;
+    right: 10px;
+  }
+}
+
+/** 5 слайдер текст верх**/
+.slider .swiper-slide:nth-child(5) .text-box-top {
+  width: 260px;
+  left: auto;
+  right: -90px;
+  top: 0;
+  bottom: auto;
+  &:after {
+    top: 105px;
+    left: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+
+  }
+}
+
+/** 6 слайдер текст**/
+.slider .swiper-slide:nth-child(6) .text-box {
+  width: 260px;
+  left: -55px;
+  bottom: 70px;
+  &:after {
+    top: -9px;
+    right: -10px;
+  }
+  &:before {
+    position: absolute;
+    top: 56px;
+    right: 10px;
+  }
+}
+
+/** 7 слайдер текст**/
+.swiper__text {
+  width: 720px;
+  background: #f7f1f1;
+  display: inline-block;
+  padding: 34% 24% 25%;
+  height: 560px;
+  &:before {
+    top: 235px;
+    left: 173px;
+  }
+}
+
+/** скроллбар**/
+.swiper-scrollbar {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%;
+  border-radius: 10px;
+}
+
+.swiper-scrollbar-drag {
+  background: #f7cb00;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
