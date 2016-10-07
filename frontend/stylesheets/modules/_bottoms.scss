@@ -1,6 +1,18 @@
-.description__blockquote__button {
-  @include green-btn;
-  margin: 58px 0 0;
+.button-gr {
+  font-size: 1.125em;
+  padding: 15px 49px;
+  color: #fff;
+  background: #2c715b;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  &:hover{
+    opacity: 0.7;
+    @include anim;
+  }
+}
+.description blockquote .button-gr {
+   margin: 58px 0 0;
 }
 /**соц сети со значком**/
 .community__network__box .button {
@@ -51,5 +63,35 @@
     background: #f7cb00;
     color: #000;
   }
+}
+/** кнопки внизу соц сети**/
+.form__right {
+  flex: 0 0 317px;
+  margin: 81px 0 0;
+}
 
+.form__left__button a {
+  margin-top: 10%;
+  padding-left: 29px;
+  padding-right: 29px;
+
+}
+
+.form__right__buttons a:first-child {
+  padding: 5%;
+  margin-top: 24%;
+}
+
+.form__right__buttons a {
+  margin-bottom: 7%;
+  width: 200px;
+  background: #3a5795;
+}
+
+.form__right__buttons a:nth-child(2) {
+  background: #d34836;
+}
+
+.form__right__buttons a:nth-child(3) {
+  background: #5c82ab;
 }

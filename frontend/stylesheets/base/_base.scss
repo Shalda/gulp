@@ -91,9 +91,21 @@ blockquote {
   flex: 0 0 400px;
 }
 
-.community__network__box span{
+.community__network__box span {
   display: inline-block;
   font: 300 1.5em 'Roboto', 'Helvetica', 'Arial', sans-serif;
   margin: 0 0 0 16px;
   vertical-align: super;
+}
+
+.view-all {
+  color: #2c715b;
+  font-size: .9em;
+  text-align: center;
+  display: block;
+  padding: 25px 0 0;
+  &:hover {
+    color: #3a5795;;
+
+  }
 }
