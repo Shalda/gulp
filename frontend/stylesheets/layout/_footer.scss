@@ -1,0 +1,54 @@
+footer {
+  background: $Bg-grey;
+  color: #9a9a9a;
+  border-top: 1px solid #d8d8d8;
+  .footer__wrapper {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 35px;
+  }
+}
+
+.footer__left-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 520px;
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 162px;
+    &__emblem {
+      position: relative;
+      padding: 0 0 0 40px;
+    }
+    &__license {
+    }
+  }
+  &__faq {
+
+  }
+  &__bank {
+  }
+}
+
+.footer__right-container {
+  flex: 0 0 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+    &__icons {
+    }
+  }
+  &__store {
+  }
+}
+
+

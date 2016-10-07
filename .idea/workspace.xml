@@ -4,19 +4,26 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="478" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87169eec-4561-4a61-b9e3-c7986c3ea455" name="Default" comment="without footer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss" />
+    <list default="true" id="87169eec-4561-4a61-b9e3-c7986c3ea455" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/faceebokgrey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/googlegrey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo-f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vkgrey.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/facebookgrey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/googlegrey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sochialhorizond.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/vkgrey.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/socsprite.png" afterPath="$PROJECT_DIR$/images/socsprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/base/_base.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/layout/_index.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/modules/_index.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/modules/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/stylesheets/modules/_bottons.scss" afterPath="$PROJECT_DIR$/frontend/stylesheets/modules/_bottoms.scss" />
     </list>
     <ignored path="jambler_gulp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,27 +45,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="598" column="0" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="522" column="64" selection-start-line="522" selection-start-column="64" selection-end-line="522" selection-end-column="64" />
               <folding>
-                <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_section_form.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +63,8 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -83,20 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/base/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_bottoms.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/stylesheets/modules/_bottoms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="209">
               <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
               <folding />
             </state>
@@ -113,11 +100,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_slider.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/modules/_slider.scss">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+            <state relative-caret-position="464">
+              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sprite.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -155,16 +162,17 @@
         <option value="$PROJECT_DIR$/frontend/stylesheets/modules/_slider.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_section-phone.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_section-community.scss" />
-        <option value="$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/modules/_bottons.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_section-table.scss" />
-        <option value="$PROJECT_DIR$/frontend/stylesheets/base/_base.scss" />
-        <option value="$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/modules/_bottoms.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_forms.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_index.scss" />
+        <option value="$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss" />
         <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss" />
+        <option value="$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/frontend/stylesheets/base/_base.scss" />
       </list>
     </option>
   </component>
@@ -453,12 +461,20 @@
       <workItem from="1475599362385" duration="4890000" />
       <workItem from="1475741721714" duration="50040000" />
       <workItem from="1475834557696" duration="11625000" />
-      <workItem from="1475847906789" duration="4468000" />
+      <workItem from="1475847906789" duration="14141000" />
     </task>
+    <task id="LOCAL-00001" summary="without footer">
+      <created>1475852383735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475852383735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71023000" />
+    <option name="totallyTimeSpent" value="80696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,7 +488,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,10 +558,10 @@
         <state relative-caret-position="272">
           <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
           <folding>
-            <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_section-table.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -817,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/stylesheets/modules/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -833,27 +833,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/base/_base.scss">
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/modules/_bottoms.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding />
+          <caret line="522" column="64" selection-start-line="522" selection-start-column="64" selection-end-line="522" selection-end-column="64" />
+          <folding>
+            <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,24 +870,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_section_form.scss">
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/modules/_bottoms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_sprite.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="598" column="0" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="124">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/utilities/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/stylesheets/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

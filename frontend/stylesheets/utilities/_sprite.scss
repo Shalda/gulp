@@ -18,25 +18,28 @@
 .sprite3:before { background-position: -44px -455px; width: 12px; height: 16px; }
 
 
-.logofooter:after, .appstore:after, .googlplay:after, .mastercard:after, .neteller:after,
-.paypal:after, .skrill:after, .visa:after, .facebookwhite:after, .googlewhite:after,
-.vkwhite:after, .facebookgrey:after, .googlegrey:after, .up:after, .vkgrey:after,
-.ball
+
+.appstore, .googleplay, .logo-mobile, .mastercard, .neteller,
+.paypal, .skrill, .visa, .facebookwhite:after, .googlewhite:after,
+.vkwhite:after, .facebookgrey, .googlegrey, .up, .vkgrey,
+.logo-f:after, .ball, .exit
 { display: inline-block; background: url('../images/socsprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
-.logofooter:after { background-position: -4px -0px; width: 149px; height: 43px; }
-.appstore:after { background-position: -4px -47px; width: 130px; height: 40px; }
-.googlplay:after { background-position: -4px -91px; width: 130px; height: 40px; }
-.mastercard:after { background-position: -4px -135px; width: 50px; height: 30px; }
-.neteller:after { background-position: -58px -135px; width: 50px; height: 30px; }
-.paypal:after { background-position: -4px -169px; width: 50px; height: 30px; }
-.skrill:after { background-position: -58px -169px; width: 50px; height: 30px; }
-.visa:after { background-position: -4px -203px; width: 50px; height: 30px; }
-.facebookwhite:after { background-position: -58px -203px; width: 40px; height: 40px; }
-.googlewhite:after { background-position: -102px -203px; width: 40px; height: 40px; }
-.vkwhite:after { background-position: -4px -237px; width: 40px; height: 40px; }
-.facebookgrey:after { background-position: -112px -135px; width: 30px; height: 30px; }
-.googlegrey:after { background-position: -112px -169px; width: 30px; height: 30px; }
-.up:after { background-position: -48px -247px; width: 30px; height: 30px; }
-.vkgrey:after { background-position: -82px -247px; width: 30px; height: 30px; }
-.ball { background-position: -116px -247px; width: 20px; height: 20px; }
+.appstore { background-position: -3px -0px; width: 130px; height: 40px; }
+.googleplay { background-position: -3px -43px; width: 130px; height: 40px; }
+.logo-mobile { background-position: -3px -86px; width: 64px; height: 66px; }
+.mastercard { background-position: -70px -86px; width: 50px; height: 30px; }
+.neteller { background-position: -70px -119px; width: 50px; height: 30px; }
+.paypal { background-position: -70px -152px; width: 50px; height: 30px; }
+.skrill { background-position: -3px -155px; width: 50px; height: 30px; }
+.visa { background-position: -56px -185px; width: 50px; height: 30px; }
+.facebookwhite:after { background-position: -3px -188px; width: 40px; height: 40px; }
+.googlewhite:after { background-position: -46px -218px; width: 40px; height: 40px; }
+.vkwhite:after { background-position: -89px -218px; width: 40px; height: 40px; }
+.facebookgrey { background-position: -3px -231px; width: 30px; height: 30px; }
+.googlegrey { background-position: -36px -261px; width: 30px; height: 30px; }
+.up { background-position: -69px -261px; width: 30px; height: 30px; }
+.vkgrey { background-position: -3px -264px; width: 30px; height: 30px; }
+.logo-f:after { background-position: -102px -261px; width: 22px; height: 24px; }
+.ball { background-position: -109px -185px; width: 20px; height: 20px; }
+.exit { background-position: -102px -288px; width: 18px; height: 20px; }

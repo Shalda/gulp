@@ -105,7 +105,53 @@ blockquote {
   display: block;
   padding: 25px 0 0;
   &:hover {
-    color: #3a5795;;
-
+    color: #3a5795;
   }
+}
+
+.footer__wrapper {
+  font-size: .75em;
+}
+
+.footer-last-line {
+  display: none;
+}
+
+.greentxt {
+  color: #007259;
+  line-height: 1.6em;
+  &:hover {
+    color: #9a9a9a;
+  }
+}
+
+.footer__left-container__logo__emblem {
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  & p {
+    line-height: 1.4em;
+  }
+}
+
+.footer__left-container__logo__licences a {
+  margin: 34px 3px 0px 4px;
+  display: inline-block;
+}
+
+.footer__left-container__logo__licences-first {
+  display: none
+}
+
+.footer__left-container__faq__bank {
+  display: none;
+}
+.first {
+  margin:0 0 27px 0;
+}
+.footer__right-container__social a {
+ margin: 0 0 0 7px;
 }

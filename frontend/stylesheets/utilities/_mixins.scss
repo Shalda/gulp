@@ -23,7 +23,7 @@
     height: 1px;
     background: #929598;
     transform: rotateY(90deg);
-    transition: transform .3s ease-in;
+    transition: transform .8s ease-out 0.1s;
   }
   &:hover:after {
     transform: rotateY(0deg);
