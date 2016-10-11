@@ -223,3 +223,20 @@ blockquote {
   }
 }
 
+#scrollup {
+  color: #007259;
+  font-size: 1em;
+  cursor: pointer;
+  align-self: center;
+  display: none;
+  padding: 20px 20px 20px 50px;
+  margin: 0 auto;
+  width: 200px;
+  @include bp(950){
+    display: flex;
+  }
+  span {
+    align-self: center;
+    padding-left: 5px;
+  }
+}
