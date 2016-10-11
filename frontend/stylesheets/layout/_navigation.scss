@@ -1,7 +1,32 @@
 .header__menu__nav {
+  @include bp(950){
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    left: 0px;
+    z-index: 5;
+  }
   position: relative;
   z-index: 1;
   margin: 9px 0 0 0;
+
+  & a {
+    @include bp(950) {
+      margin: 1px 0 0 !important;
+      padding: 8px 28px;
+      color: #000;
+      background: #f7cb00;
+      white-space: nowrap;
+      display: block;
+      &:hover {
+        background: #d34836;
+        @include anim();
+        color: #fff;
+      }
+    }
+  }
   .btn {
     padding: 8px 28px;
     color: #000;
@@ -9,8 +34,9 @@
     border-radius: 2px;
     margin: 0 0 0 42px;
     &:hover {
+      @include bp(951, 'min') {
       opacity: 0.7;
-      @include anim();
+      @include anim();}
     }
   }
   .enter {
@@ -18,13 +44,28 @@
     background: #2c715b;
     color: #fff;
     margin: 0 0 0 5px;
+    @include bp(950){
+      display: none !important;
+    }
   }
   & a:first-child {
-    margin: 0 31px 0 0;
-    @include hover-line();
+    @include bp(951, 'min') {
+      margin: 0 31px 0 0;
+      @include hover-line();
+    }
   }
   & a:nth-child(2) {
-    @include hover-line();
+    @include bp(950){
+      background: #2c715b;
+      color: #fff;
+      &:hover {
+        background: #d34836;
+        @include anim();
+      }
+    }
+    @include bp(951, 'min') {
+      @include hover-line();
+    }
   }
 }
 
@@ -32,6 +73,15 @@ a {
   color: black;
   position: relative;
 }
+.mobile-menu-wrapper{
+  @include bp(950) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+  }
 
+}
 
 

@@ -7,4 +7,10 @@ input {
   width: 400px;
   color: #999999;
   font-size: 1.1em;
+  @include bp(950) {
+    width: 50%;
+  }
+  @include bp(320) {
+    width: 100%;
+  }
 }

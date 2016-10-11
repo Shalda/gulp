@@ -7,6 +7,13 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 30px 80px 35px;
+    @include bp(950) {
+      padding: 20px;
+      flex-direction: column;
+    }
+    @include bp(320){
+      padding: 55px 20px 20px;
+    }
   }
 }
 
@@ -14,22 +21,26 @@ footer {
   display: flex;
   justify-content: space-between;
   flex: 0 0 520px;
+  @include bp(950) {
+    flex-direction: column;
+    flex: 1;
+  }
   &__logo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 0 0 162px;
+    @include bp(950) {
+      flex: 1;
+
+    }
     &__emblem {
       position: relative;
       padding: 0 0 0 40px;
-    }
-    &__license {
-    }
-  }
-  &__faq {
+      @include bp(950) {
 
-  }
-  &__bank {
+      }
+    }
   }
 }
 
@@ -38,17 +49,24 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @include bp(950) {
+    flex: 1;
+  }
   &__social {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap-reverse;
-
-    &__icons {
+    @include bp(950) {
+      position: absolute;
+      top: 55px;
+      right: 20px;
     }
-  }
-  &__store {
   }
 }
 
+.footer__right-container__store {
+  padding-top: 25px;
+  white-space: nowrap;
+}
 

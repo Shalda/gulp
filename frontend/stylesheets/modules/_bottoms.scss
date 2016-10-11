@@ -6,14 +6,29 @@
   border-radius: 2px;
   display: inline-block;
   text-align: center;
-  &:hover{
+  @include bp(950) {
+    font-size: 1.9em;
+    padding: 30px 50px;
+    display: block;
+    border-radius: 5px;
+  }
+  @include bp(360) {
+    padding: 15px;
+    font-size: 1.1em;
+  }
+  &:hover {
     opacity: 0.7;
     @include anim;
   }
 }
+
 .description blockquote .button-gr {
-   margin: 58px 0 0;
+  margin: 58px 0 0;
+  @include bp(320) {
+    margin: 54px 0 0;;
+  }
 }
+
 /**соц сети со значком**/
 .community__network__box .button {
   position: relative;
@@ -24,6 +39,24 @@
   border-radius: 2px;
   color: #fff;
   font: 700 .875em 'Roboto', sans-serif;
+  @include bp(950) {
+    padding: 30px 50px 30px 55px;
+    font-size: 1.5em;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  @include bp(685) {
+    font-size: 1em;
+  }
+  @include bp(475) {
+    font-size: .8em;
+    padding: 25px 36px 23px 78px;
+    text-align: start;
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+  }
   &:after {
     content: ' ';
     position: absolute;
@@ -49,9 +82,11 @@
 .vk {
   background: #5c82ab;
 }
+
 /** кнопка на таблице**/
 
 .table__match__bottom-game {
+  position: relative;
   padding: 5px 20px;
   background: #2c715b;
   text-align: center;
@@ -59,33 +94,66 @@
   border-radius: 2px;
   font-size: .8em;
   text-decoration: none;
+  white-space: nowrap;
+  @include bp(400) {
+    text-indent: -9999px;
+    display: block;
+    background: #fff;
+    &:before {
+      content: ' ';
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-left: 2px solid #ccc;
+      border-bottom: 2px solid #ccc;
+      transform: rotate(-135deg);
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+    }
+  }
   &:hover {
     background: #f7cb00;
     color: #000;
+    @include bp(400) {
+      background: #fff;
+    }
   }
 }
+
 /** кнопки внизу соц сети**/
 .form__right {
   flex: 0 0 317px;
   margin: 81px 0 0;
+  @include bp(320) {
+    margin: 98px 0 0;
+  }
+  &__text {
+    margin: 0 0 43px 0;
+  }
 }
 
 .form__left__button a {
   margin-top: 10%;
   padding-left: 29px;
   padding-right: 29px;
-
 }
 
 .form__right__buttons a:first-child {
-  padding: 5%;
+
   margin-top: 24%;
+  @include bp(950) {
+    margin-top: 0;
+  }
 }
 
 .form__right__buttons a {
   margin-bottom: 7%;
   width: 200px;
   background: #3a5795;
+  @include bp(950) {
+    width: 100%;
+  }
 }
 
 .form__right__buttons a:nth-child(2) {

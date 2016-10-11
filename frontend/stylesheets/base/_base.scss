@@ -22,6 +22,10 @@ h6 {
 
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -32,13 +36,13 @@ img {
   height: auto;
 }
 
-*[class$="text"] {
-  @include text;
-  @include text-dash;
-}
-
-.call {
+.head-mobile {
   display: none;
+  @include bp(950) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .whistle {
@@ -56,15 +60,36 @@ img {
 blockquote {
   align-self: center;
   flex: 0 0 400px;
+  @include bp(950) {
+    flex: 0;
+  }
 }
 
 .description__tutorial {
   z-index: 1;
   text-align: center;
+  @include bp(950) {
+    width: 100%;
+  }
   span {
     display: block;
     margin: 0 0 33px;
     font: 700 0.9em 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    @include bp(950) {
+      margin: 80px 0 25px;
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    @include bp(320) {
+      font-size: 0.86em;;
+    }
+  }
+  & .video a img {
+    @include bp(950) {
+      width: 100%;
+    }
+
   }
 }
 
@@ -76,6 +101,9 @@ blockquote {
 .phone .container {
   .phone__aside p {
     margin: 0 0 112px;
+    @include bp(320) {
+      margin: 0 0 70px;
+    }
 
   }
   .n-three {
@@ -89,6 +117,9 @@ blockquote {
 
 .community__text {
   flex: 0 0 400px;
+  @include bp(950) {
+    flex: 1;
+  }
 }
 
 .community__network__box span {
@@ -96,6 +127,9 @@ blockquote {
   font: 300 1.5em 'Roboto', 'Helvetica', 'Arial', sans-serif;
   margin: 0 0 0 16px;
   vertical-align: super;
+  @include bp(950) {
+    display: none;
+  }
 }
 
 .view-all {
@@ -104,13 +138,10 @@ blockquote {
   text-align: center;
   display: block;
   padding: 25px 0 0;
+  border-top: 2px solid #e5e5e5;
   &:hover {
-    color: #3a5795;
+    color: #ec1104;
   }
-}
-
-.footer__wrapper {
-  font-size: .75em;
 }
 
 .footer-last-line {
@@ -118,7 +149,7 @@ blockquote {
 }
 
 .greentxt {
-  color: #007259;
+  color: $green-txt;
   line-height: 1.6em;
   &:hover {
     color: #9a9a9a;
@@ -140,18 +171,55 @@ blockquote {
 .footer__left-container__logo__licences a {
   margin: 34px 3px 0px 4px;
   display: inline-block;
+  @include bp(950) {
+    margin: 25px 5px 0px;
+  }
 }
 
 .footer__left-container__logo__licences-first {
-  display: none
+  display: none;
+  @include bp(950) {
+    display: inline-block;
+  }
 }
 
 .footer__left-container__faq__bank {
   display: none;
+  @include bp(950) {
+    display: inline-block;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0;
+    white-space: nowrap;
+    & a:hover {
+      opacity: 0.5;
+      @include anim();
+    }
+  }
 }
-.first {
-  margin:0 0 27px 0;
+
+.footer__left-container__faq {
+  a {
+    @include bp(950) {
+      display: inline-block;
+      margin: 20px 5px 0;
+    }
+  }
+  .first {
+    margin: 0 0 27px 0;
+    @include bp(950) {
+      display: inline-block;
+      margin: 0;
+    }
+  }
 }
+
 .footer__right-container__social a {
- margin: 0 0 0 7px;
+  margin: 0 0 0 7px;
 }
+
+.desktop {
+  @include bp(950) {
+    display: none;
+  }
+}
+

@@ -1,19 +1,28 @@
 .table {
-  height: 100vh;
   max-width: 1360px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 0px 80px 80px 160px;
+  padding: 0 80px 80px 160px;
+  @include bp(1100) {padding: 0 80px 80px 120px;}
+  @include bp(950) {
+    padding: 0 20px 40px;
+    flex-direction: column;
+  }
   .before-table__text {
     flex-basis: 350px;
     letter-spacing: 0;
+    @include bp(950){
+      flex: 1;
+      margin: 0 0 70px;
+    }
   }
 }
 
 table {
   border-top: 2px solid #e5e5e5;
   font-size: .9em;
+  margin: 0 auto;
   td {
     width: 56px;
   }
@@ -32,7 +41,6 @@ table {
   padding: 14px 0;
 }
 
-
 .table__description {
   color: #999999;
   font-size: .6em;
@@ -41,6 +49,7 @@ table {
 .table__value {
   color: #000;
   font-size: .8em;
+  white-space: nowrap;
   &-time {
     color: #c34c4c;
   }
@@ -61,4 +70,14 @@ table {
   }
 }
 
+.delete {
+  @include bp(400){
+    display: none;
+  }
+}
 
+th {
+  @include bp(400){
+    max-width: 15px;
+  }
+}

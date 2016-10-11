@@ -17,4 +17,16 @@ $(document).ready(function () {
             }
         }
     });
+    $('.burger-menu').click(function(e){
+        e.preventDefault();
+        $(this)
+
+            .parent('.header__menu')
+            .find('.header__menu__nav')
+            .slideToggle();
+    })
+
 });
+
+
+

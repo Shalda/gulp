@@ -7,3 +7,49 @@ body {
   font: 700 .875em 'Roboto', 'Helvetica', 'Arial', sans-serif;
 
 }
+
+*[class$="text"] {
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 2.3px;
+  z-index: 2;
+  @include bp(950) {
+    font-size: 1.8em;
+    line-height: 1.8;
+    letter-spacing: 2.5px;
+  }
+  @include bp(320) {
+    font-size: 1.1em;
+    line-height: 1.76;
+    letter-spacing: 1px;
+  }
+  &:before {
+    content: ' ';
+    width: 40px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: -13px;
+    left: 0;
+    @include bp(950) {
+      top: -20px;
+      width: 60px;
+    }
+    @include bp(320) {
+      top: -18px;
+      width: 40px;
+    }
+  }
+}
+
+.footer__wrapper {
+  font-size: .75em;
+  @include bp(950) {
+    font-size: 1.5em;
+  }
+  @include bp(520) {
+    font-size: 0.7em;
+  }
+}

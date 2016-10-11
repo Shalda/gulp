@@ -2,8 +2,8 @@
 .sprite8:before, .sprite2:before, .sprite4:before, .sprite7:before, .sprite6:before,
 .sprite5:before, .sprite3:before
 {content: " "; display: inline-block; background: url('../images/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; position: absolute; right: 53px;
-  top: -72px;}
-
+  top: -72px; @include bp(320){right: 0;}}
+.n-one:after {right: 78px; @include bp(320){right: 10px;}}
 .n-four:after { background-position: -4px -0px; width: 78px; height: 107px; }
 .n-two:after { background-position: -4px -111px; width: 73px; height: 108px; }
 .n-three:after { background-position: -4px -223px; width: 69px; height: 109px; }

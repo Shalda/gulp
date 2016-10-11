@@ -1,13 +1,21 @@
 .form {
-  height: 100vh;
   width: 100%;
   background: $Bg-grey;
   padding: 175px 0 0 0;
+  @include bp(950) {
+    padding: 80px 20px 0;
+  }
+  @include bp(320) {
+    padding: 96px 20px 0;
+  }
   &-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 880px;
+    @include bp(950) {
+      flex-direction: column;
+    }
 
   }
 }
@@ -17,7 +25,6 @@
   letter-spacing: 0;
 }
 
-
 form p {
   padding-bottom: 3%;
 }
@@ -26,4 +33,8 @@ form p {
   flex: 0 0 420px;
 }
 
-
+.form__left__main {
+  @include bp(320) {
+    padding: 25px 0 25px 0;
+  }
+}

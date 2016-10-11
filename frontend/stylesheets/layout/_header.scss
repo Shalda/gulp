@@ -1,9 +1,24 @@
 header {
   background: $Bg-grey;
+  @include bp(950) {
+    padding: 25px 20px 10px;
+
+  }
   .header__menu {
     padding: 77px 80px 20px;
     position: relative;
     display: flex;
     justify-content: space-between;
+    @include bp(950){
+         padding: 0px 0px 105px;
+      align-items: center;
+    }
+
+  }
+}
+.mobile {
+  display: none;
+  @include bp(950){
+    display: block;
   }
 }

@@ -1,11 +1,23 @@
 .description {
   background: $Bg-grey;
+  @include bp(950) {
+
+  }
   .container {
-    padding: 80px 80px 80px;
+    padding: 80px 20px 80px;
     height: calc(100vh - 130px);
     min-height: 473px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    @include bp(950) {
+      padding: 0 20px 40px;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 100%;
+    }
+    @include bp(320) {
+      padding: 5px 20px 40px;;
+    }
   }
 }
