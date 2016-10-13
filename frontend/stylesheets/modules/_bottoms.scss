@@ -33,7 +33,7 @@
 .community__network__box .button {
   position: relative;
   display: inline-block;
-  padding: 24px 48px 20px 77px;
+  padding: 24px 45px 20px 77px;
   line-height: 1.3;
   width: 280px;
   border-radius: 2px;
@@ -125,6 +125,9 @@
 .form__right {
   flex: 0 0 317px;
   margin: 81px 0 0;
+  @include bp(950){
+    flex-basis: auto;
+  }
   @include bp(320) {
     margin: 98px 0 0;
   }

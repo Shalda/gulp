@@ -31,6 +31,9 @@ form p {
 
 .form__left {
   flex: 0 0 420px;
+  @include bp(950){
+    flex-basis: auto;
+  }
 }
 
 .form__left__main {
