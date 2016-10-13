@@ -1,12 +1,12 @@
 .form {
   width: 100%;
   background: $Bg-grey;
-  padding: 175px 0 0 0;
+  padding: 175px 0 135px 0;
   @include bp(950) {
     padding: 80px 20px 0;
   }
   @include bp(320) {
-    padding: 96px 20px 0;
+    padding: 96px 20px 35px;
   }
   &-container {
     display: flex;

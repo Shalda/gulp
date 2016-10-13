@@ -12,7 +12,7 @@ footer {
       flex-direction: column;
     }
     @include bp(320){
-      padding: 55px 20px 20px;
+      padding:  20px;
     }
   }
 }
@@ -59,7 +59,7 @@ footer {
     flex-wrap: wrap-reverse;
     @include bp(950) {
       position: absolute;
-      top: 55px;
+      top: 28px;
       right: 20px;
     }
   }

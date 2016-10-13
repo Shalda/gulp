@@ -129,7 +129,9 @@
     margin: 98px 0 0;
   }
   &__text {
-    margin: 0 0 43px 0;
+    @include bp(950) {
+      margin: 0 0 43px 0;
+    }
   }
 }
 
