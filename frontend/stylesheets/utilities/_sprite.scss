@@ -17,7 +17,13 @@
 .sprite5:before { background-position: -26px -447px; width: 14px; height: 20px; }
 .sprite3:before { background-position: -44px -455px; width: 12px; height: 16px; }
 
-
+.sprite1:before,
+.sprite8:before, .sprite2:before, .sprite4:before, .sprite7:before, .sprite6:before,
+.sprite5:before, .sprite3:before{
+  @include bp(650){
+    display: none;
+  }
+}
 
 .appstore, .googleplay, .logo-mobile, .mastercard, .neteller,
 .paypal, .skrill, .visa, .facebookwhite:after, .googlewhite:after,

@@ -1,0 +1,24 @@
+.burger-menu {
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 22px;
+  background: #2c715b;
+  border-radius: 3px;
+  @include bp(950) {
+    display: inline-block !important;
+  }
+  @include bp(320) {
+    padding: 7px 15px;
+  }
+}
+
+.call-exit {
+  span {
+    color: $green-txt;
+    padding: 0 0 0 5px;
+    @include bp(320) {
+      font-size: 0.9em;
+    }
+  }
+}
